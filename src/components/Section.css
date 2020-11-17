@@ -1,0 +1,42 @@
+.nav{
+	font-size: 20px; 
+	border-bottom:2px solid rgb(0,0,0);
+	/*padding-bottom:8px;*/
+}
+.nav-link{
+	margin-right: 70px;
+	padding-bottom: 30px;
+}
+.nav-link:hover {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+}
+
+.nav .active{
+
+	position: relative;
+    display: inline-block;
+    z-index:0;
+}
+.nav .active:before{
+	content: '';
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+	height: 0;
+	border: 10px solid #06CC6B;
+	border-radius : 10px;
+
+}
+/*.top{
+	margin-top: 20px;
+
+}*/
+.header{
+	margin-bottom: 15px;
+}
+ul{
+	margin-left: 0px;
+} 

@@ -1,0 +1,9 @@
+.contain{
+  background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
+  width: 100%;
+}
+
+.top{
+  margin-top: 20px;
+
+}
