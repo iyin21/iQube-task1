@@ -1,39 +1,36 @@
 import '../../App.css'
 import { Link } from 'react-router-dom'
 
-function Personal () {
+function Billing() {
 	return (
 		<>
 			<form>
 				<div class="form-group">
-				  <label>Name</label>
+				  <label>Name on Card</label>
 				    <input type="text" className="form-control" name="name" />
 				  </div>  
 				<div class="form-group">
-				  <label>Email Address</label>
-				    <input type="text" className="form-control" name="name" />
-				</div>
-				<div class="form-group">
-				  <label>Address`1</label>
-				    <input type="text" className="form-control" name="name" />
-				</div>
-				<div class="form-group">
-				  <label>Address 2</label>
+				  <label>Card Type</label>
 				    <input type="text" className="form-control" name="name" />
 				</div>
 				<div class="form-row">
-					<div class="form-group col-sm-8">
-					  <label>Local Government</label>
+					<div class="form-group col-sm-7">
+					  <label>Card details</label>
 					    <input type="text" className="form-control" name="name" />
 					</div>
-					<div class="form-group col-sm-4">
+					<div class="form-group col-sm-3">
 					  <label>State</label>
-					    <select class="form-control">
-							<option value="Lagos">Lagos</option>
-						</select>
+					   <label>Expiry date</label>
+					    <input type="text" className="form-control" name="name" />
+					</div>
+					<div class="form-group col-sm-2">
+					  <label>State</label>
+					   <label>CVV</label>
+					    <input type="text" className="form-control" name="name" />
 					</div>
 				</div>	
-				<div class="row">
+			</form>	
+			<div class="row">
 					<div class="col-sm-10">
 			  			<div class="row">
 			  				<div class="col">
@@ -45,11 +42,9 @@ function Personal () {
 						</div>		
 					</div>
 				</div>		
-
-
-			</form>
 		</>
+
 	)
 }
 
-export default Personal
+export default Billing

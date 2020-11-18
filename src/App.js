@@ -1,7 +1,9 @@
 import Section from './components/Section';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Personal from './components/pages/Personal'
+import Personal from './components/pages/Personal';
+import Billing from './components/pages/Billing';
+import Confirmation from './components/Confirmation';
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
           <Router>
             <Section />
             <Switch>
-              <Route path="/" exact component= {Personal} />
+              <Route path="/personal" exact component= {Personal} />
+              <Route path="/billing" exact component= {Billing} />
+              <Route path="/confirmation" exact component= {Confirmation} />
             </Switch>
           </Router>
         </div> 

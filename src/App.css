@@ -1,7 +1,8 @@
-.contain{
-  background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
+/*.contain{
+  background: linear-gradient(to right bottom, blue 50%, red 50%);
+  background-size: cover;
   width: 100%;
-}
+}*/
 
 .top{
   margin-top: 20px;
