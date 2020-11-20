@@ -8,3 +8,27 @@
   margin-top: 20px;
 
 }
+body{
+
+  background: linear-gradient(to right bottom, blue 50%, white 50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+}
+.button1{
+  background:  #f2994a;
+  width: 200px;
+  height: 50px; 
+  border-radius: 5px;
+  color: #ffffff;
+}
+.weight{
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: #aaa8b6;
+  /*font-weight: 50px;*/
+}
+.link2{
+  color: #4e598c;
+}

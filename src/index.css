@@ -1,8 +1,8 @@
 body{
 
-	background: linear-gradient(to right bottom, blue 50%, white 50%);
+	background: linear-gradient(to right bottom, #fceedb 50%, white 50%);
     background-size: cover;
     background-repeat: no-repeat;
 
-    /*width: 100%;*/
+    width: 100%;
 }

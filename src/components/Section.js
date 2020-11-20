@@ -4,13 +4,14 @@ import './Section.css';
 
 function Section() {
 	const [click, setClick] =useState(false);
+	const handleClick = () => setClick(!click);
 	//const closeMobileMenu = () => setClick(false);
 	return (
 		<div className="App-header">
-			<h3 className="header">Complete your Purchase</h3>
-			<ul className="nav">
+			<h2 className="header">Complete your Purchase</h2>
+			<ul className="nav" onClick={handleClick} >
 				<li className="nav-item pad-left ">
-					<Link to="/personal" className="nav-link active">Personal Info</Link>
+					<Link to="/personal" className={click ? 'nav-link active' : 'nav-link'} >Personal Info</Link>
 				</li>
 				<li className="nav-item">
 					<Link to="/billing" className="nav-link">Billing Info</Link>

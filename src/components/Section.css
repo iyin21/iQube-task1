@@ -6,17 +6,19 @@
 .nav-link{
 	margin-right: 70px;
 	padding-bottom: 30px;
+	color: #bdbdbd;
 }
-.nav-link:hover {
+/*.nav-link:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
-}
+}*/
 
 .nav .active{
 
 	position: relative;
     display: inline-block;
     z-index:0;
+    color: #f2994a;
 }
 .nav .active:before{
 	content: '';
@@ -26,7 +28,7 @@
 	right: 0;
 	bottom: -10px;
 	height: 0;
-	border: 10px solid #06CC6B;
+	border: 10px solid #f2994a;
 	border-radius : 10px;
 
 }
@@ -39,6 +41,7 @@
 }*/
 .header{
 	margin-bottom: 15px;
+	color: #4e598c;
 }
 ul{
 	margin-left: 0px;

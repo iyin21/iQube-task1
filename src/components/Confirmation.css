@@ -1,0 +1,33 @@
+/*.App-header {
+	display: none
+}*/
+.payment-container{
+	background-color: #fffff2;
+	margin-top: 200px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	text-align: left;
+	padding: 70px 100px 40px 100px;
+	width: 700px;
+	height: 600px;
+	font-size: 20px;
+}
+.fa-check{
+	color: #88d6a8;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #ffffD2;
+	padding: 10px;
+	font-size: 50px;
+}
+.check{
+	text-align: center;
+	
+}
+.purple{
+	color: #4e598c;
+}
+.link1{
+	color: #f2994a;
+	border-bottom: 2px solid #f2994a;
+}
